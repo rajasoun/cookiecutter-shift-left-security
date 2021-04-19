@@ -1,4 +1,4 @@
-#!/usr/bin/env sh 
+#!/usr/bin/env sh
 
 ghelp() {
 	echo "
@@ -6,7 +6,7 @@ ghelp() {
 Git Convenience Shortcuts:
 - - - - - - - - - - - - - -
 ghelp 		- List all Git Convenience commands and prompt symbols
-gsetup		- Install Git Flow & pre-commit hooks 
+gsetup		- Install Git Flow & pre-commit hooks
 gaa   		- Add all changes (including untracted files) to staging
 cz c  		- Git Commit
 gba   		- List of local and remote branches
@@ -19,7 +19,7 @@ code_churn	- Frequency of change to code base
 _init_git() {
 	echo "Not Git Repository"
 	echo "Intializing Git & Git Flow"
-	git init 
+	git init
 	git flow init
 }
 
@@ -46,12 +46,12 @@ gsetup() {
 # 38 test/test_integration.bats
 # 97 .github/workflows/pipeline.yml
 #
-# This means that 
+# This means that
 # actions.bash has changed 30 times.
 # pipeline.yml has changed 97 times.
 #
 # Show churn for specific directories:
-#   $ $ ./git-churn.bash src 
+#   $ $ ./git-churn.bash src
 #
 # Show churn for a time range:
 #   $ $ ./git-churn.bash --since='1 month ago'

@@ -21,5 +21,3 @@ RUN set -ex \
 RUN set -ex \
     && apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends git-flow bash-completion
-
-
