@@ -10,7 +10,7 @@ For institutionalizing Shift Left Security tools for
 1. [Docker](https://www.docker.com/)
 
 ```sh
-docker run --rm --name cruft python:3.9.2-alpine3.13  \
+docker run --rm --name cruft python:3.9.3-alpine3.13  \
   pip3  install cruft \
   && cruft create https://github.com/rajasoun/cookiecutter-shift-left-security
 ```
