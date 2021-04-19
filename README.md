@@ -1,11 +1,14 @@
 # Getting Started
 
-For institutionalizing Shift Left Security tools for
+For institutionalizing Shift Left Security adoption for
 
 1. Secrets Detection
 2. Static Application Security Testing (SAST) Scan
+3. Development Environment Setup
+4. Git Commit
+5. Git Branching
 
-### Prerequisites
+## Prerequisites
 
 1. [Docker](https://www.docker.com/)
 
@@ -23,18 +26,25 @@ cd <project_name>
 
 Refer [SLS - Shift Left Security](SLS.md)
 
+## Toolz Radar
 
-
-# Tool Radar
-🚀 Collection of tools that performs git hooks management for linting, code formating, commit message standardization, sutomated versioning and package publishing
+🚀 Tool Collection
 
 ### Adopt:
--   [commitizen](https://github.com/commitizen/cz-cli): Tool that guides the developer through the writing of the commit message
--   [commitlint](https://github.com/conventional-changelog/commitlint): Tool that validates the commit message following a set of rules and good practices
--   [pre-commit](https://pre-commit.com/): A framework for managing and maintaining multi-language pre-commit hooks
+
+- [Docker](https://www.docker.com/): Docker takes away repetitive, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development - desktop and cloud.
+- [cookiecutter](https://github.com/cookiecutter/cookiecutter): A command-line utility that creates projects from cookiecutters (project templates)
+- [cruft](https://github.com/cruft/cruft): cruft allows you to maintain all the necessary boilerplate for packaging and building projects separate from the code you intentionally write. Fully compatible with existing Cookiecutter templates
+- [Visual Studio Code Remote - Containers Extension](https://code.visualstudio.com/docs/remote/containers): Leverage Docker container as a full-featured development environment. It allows you to open any folder inside (or mounted into) a container and take advantage of Visual Studio Code's full feature set.
+- [commitizen](https://github.com/commitizen/cz-cli): Tool that guides the developer through the writing of the commit message
+- [commitlint](https://github.com/conventional-changelog/commitlint): Tool that validates the commit message following a set of rules and good practices
+- [pre-commit](https://pre-commit.com/): A framework for managing and maintaining multi-language pre-commit hooks
+- [gg-shield](https://github.com/GitGuardian/gg-shield): CLI application that runs in your local environment or in a CI environment to help you detect more than 200 types of secrets, as well as other potential security vulnerabilities or policy breaks.
+- [git flow](https://github.com/nvie/gitflow): Git extensions to provide high-level repository operations
 
 ### Assess:
--   [lint-staged](https://github.com/okonet/lint-staged): Run linters against staged git files and don't let :poop: slip into your code base!
--   [prettier](https://prettier.io/): An opinionated code formatter
--   [husky](https://github.com/typicode/husky): Tool that adds scripts (hooks) trigged before (pre-commit) and after (post-commit) your commit.
--   [release-it](https://github.com/release-it/release-it): CLI tool to automate versioning and package publishing related tasks
+
+- [lint-staged](https://github.com/okonet/lint-staged): Run linters against staged git files and don't let :poop: slip into your code base!
+- [prettier](https://prettier.io/): An opinionated code formatter
+- [husky](https://github.com/typicode/husky): Tool that adds scripts (hooks) trigged before (pre-commit) and after (post-commit) your commit.
+- [release-it](https://github.com/release-it/release-it): CLI tool to automate versioning and package publishing related tasks
