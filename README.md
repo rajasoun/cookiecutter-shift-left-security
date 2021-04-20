@@ -30,7 +30,7 @@ Refer [SLS - Shift Left Security](SLS.md)
 
 🚀 Tool Collection
 
-### Adopt:
+### Adopt
 
 1.  [Docker](https://www.docker.com/): Docker takes away repetitive, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development - desktop and cloud.
 1.  [cookiecutter](https://github.com/cookiecutter/cookiecutter): A command-line utility that creates projects from cookiecutters (project templates)
@@ -42,7 +42,7 @@ Refer [SLS - Shift Left Security](SLS.md)
 1.  [gg-shield](https://github.com/GitGuardian/gg-shield): CLI application that runs in your local environment or in a CI environment to help you detect more than 200 types of secrets, as well as other potential security vulnerabilities or policy breaks.
 1.  [git flow](https://github.com/nvie/gitflow): Git extensions to provide high-level repository operations
 
-### Assess:
+### Assess
 
 1.  [lint-staged](https://github.com/okonet/lint-staged): Run linters against staged git files and don't let :poop: slip into your code base!
 1.  [prettier](https://prettier.io/): An opinionated code formatter

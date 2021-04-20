@@ -8,28 +8,13 @@ Institutionalizing Shift Left Security adoption for
 1.  Git Commit
 1.  Git Branching
 
-### Prerequisites
+## Prerequisites
 
 1.  [Visual Studio Code](https://code.visualstudio.com/)
 1.  [Remote-Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) ext install ms-vscode-remote.remote-containers
 1.  [Docker](https://www.docker.com/)
 
-### Quick Background
-
-Visual Studo Code [Remote Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension allow us to use docker as a full-featured development environment.
-
-Remote Containters allows us to isolate each project’s development environment with following advantages
-
-1.  Reproducibility: Each developer has exactly the same workspace
-1.  Isolation: Workspaces and their dependencies are isolated from each other
-1.  Security: Prevents malicious dependencies from installing malware or reading your files.
-
-Each project has a .devcontainer folder.
-The .devcontainer folder contains the Dockerfile and devcontainer.json configuration for the development environment.
-
-![Remote Container](https://code.visualstudio.com/assets/docs/remote/containers/architecture-containers.png)
-
-### Getting Started
+## Getting Started
 
 1.  Enable help and alias
 
@@ -72,3 +57,18 @@ Goto: https://code.visualstudio.com/docs/remote/containers-tutorial
 1.  [pre-commit](https://pre-commit.com/): A framework for managing and maintaining multi-language pre-commit hooks
 1.  [gg-shield](https://github.com/GitGuardian/gg-shield): CLI application that runs in your local environment or in a CI environment to help you detect more than 200 types of secrets, as well as other potential security vulnerabilities or policy breaks.
 1.  [git flow](https://github.com/nvie/gitflow): Git extensions to provide high-level repository operations
+
+## Quick Background about Remote Containers
+
+Visual Studo Code [Remote Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension allow us to use docker as a full-featured development environment.
+
+Remote Containters allows us to isolate each project’s development environment with following advantages
+
+1.  Reproducibility: Each developer has exactly the same workspace
+1.  Isolation: Workspaces and their dependencies are isolated from each other
+1.  Security: Prevents malicious dependencies from installing malware or reading your files.
+
+Each project has a .devcontainer folder.
+The .devcontainer folder contains the Dockerfile and devcontainer.json configuration for the development environment.
+
+![Remote Container](https://code.visualstudio.com/assets/docs/remote/containers/architecture-containers.png)
