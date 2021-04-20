@@ -15,7 +15,12 @@ COPY --from=chamber-builder /chamber /usr/bin/chamber
 
 # pip3 packages
 RUN set -ex \
-    && pip3 --disable-pip-version-check --no-cache-dir install pipenv ggshield pre-commit commitizen cruft
+    && pip3 --disable-pip-version-check --no-cache-dir install \
+            pipenv==2020.11.15      \
+            ggshield==1.4.0         \
+            pre-commit==2.12.1      \
+            commitizen==2.17.3      \
+            cruft==2.8.0
 
 # OS packages.
 RUN set -ex \
