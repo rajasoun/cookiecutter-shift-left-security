@@ -61,7 +61,7 @@ Goto: https://code.visualstudio.com/docs/remote/containers-tutorial
 
 🚀 Tool Collection
 
-### Adopt:
+### Adopt
 
 1.  [Docker](https://www.docker.com/): Docker takes away repetitive, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development - desktop and cloud.
 1.  [cookiecutter](https://github.com/cookiecutter/cookiecutter): A command-line utility that creates projects from cookiecutters (project templates)
