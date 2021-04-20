@@ -1,5 +1,7 @@
-# Critical Changes
+# Highlights
 
-# Changes
+## Critical Changes
 
-# Issues Closed
+## Changes
+
+## Issues Closed

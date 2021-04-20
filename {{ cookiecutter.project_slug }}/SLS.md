@@ -1,4 +1,4 @@
-# Getting Started
+# Purpose
 
 Institutionalizing Shift Left Security adoption for
 
