@@ -2,11 +2,11 @@
 
 For institutionalizing Shift Left Security adoption for
 
-1. Secrets Detection
-2. Static Application Security Testing (SAST) Scan
-3. Development Environment Setup
-4. Git Commit
-5. Git Branching
+1.  Secrets Detection
+1.  Static Application Security Testing (SAST) Scan
+1.  Development Environment Setup
+1.  Git Commit
+1.  Git Branching
 
 ## Prerequisites
 
